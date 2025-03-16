@@ -14,13 +14,15 @@ export class Auto{
         this.ascelerar = pAscelerar;
         this.frenar = pFrenar;
 
-    }
+    };
 
 
     estaAscelerando(pAscelerar:boolean):void{
         if(this.ascelerar==true){
-        console.log("El auto está Ascelerando ");}
-    }
+        console.log("El auto está Ascelerando ");
+    };
+    
+    };
 
     
-}
+};
