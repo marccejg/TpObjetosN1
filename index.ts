@@ -9,4 +9,5 @@ let cuartoAuto = new Auto("Fiat", "Uno", 1999, true, false);
 console.log(primerAuto);
 console.log(segundoAuto);
 console.log(tercerAuto);
-console.log(primerAuto.ascelerar);
+let estado = segundoAuto.estaAscelerando();
+console.log(estado);

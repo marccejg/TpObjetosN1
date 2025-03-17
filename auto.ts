@@ -17,12 +17,10 @@ export class Auto {
     };
 
 
-    estaAscelerando(asc: boolean): void {
+    estaAscelerando(): void {
         if (this.ascelerar == true) {
-            console.log("El auto está Ascelerando ");
-        };
-
+            console.log("El auto está Ascelerando ")
+        }
+        else { console.log("está frenado") }
     };
-
-
 };

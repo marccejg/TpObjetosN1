@@ -10,11 +10,13 @@ var Auto = /** @class */ (function () {
         this.frenar = pFrenar;
     }
     ;
-    Auto.prototype.estaAscelerando = function (asc) {
+    Auto.prototype.estaAscelerando = function () {
         if (this.ascelerar == true) {
             console.log("El auto está Ascelerando ");
         }
-        ;
+        else {
+            console.log("está frenado");
+        }
     };
     ;
     return Auto;
