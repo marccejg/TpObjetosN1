@@ -2,17 +2,17 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Auto = void 0;
 var Auto = /** @class */ (function () {
-    function Auto(pMarca, pModelo, pAnio, pAscelerar, pFrenar) {
+    function Auto(pMarca, pModelo, pAnio, pAcelerar, pFrenar) {
         this.marca = pMarca;
         this.modelo = pModelo;
         this.anio = pAnio;
-        this.ascelerar = pAscelerar;
+        this.acelerar = pAcelerar;
         this.frenar = pFrenar;
     }
     ;
-    Auto.prototype.estaAscelerando = function () {
-        if (this.ascelerar == true) {
-            console.log("El auto está Ascelerando ");
+    Auto.prototype.estaAcelerando = function () {
+        if (this.acelerar == true) {
+            console.log("El auto está Acelerando ");
         }
         else {
             console.log("está frenado");

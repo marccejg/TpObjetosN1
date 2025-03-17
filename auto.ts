@@ -3,23 +3,23 @@ export class Auto {
     marca: string;
     modelo: string;
     anio: number;
-    ascelerar: boolean;
+    acelerar: boolean;
     frenar: boolean;
 
 
-    constructor(pMarca: string, pModelo: string, pAnio: number, pAscelerar: boolean, pFrenar: boolean) {
+    constructor(pMarca: string, pModelo: string, pAnio: number, pAcelerar: boolean, pFrenar: boolean) {
         this.marca = pMarca;
         this.modelo = pModelo;
         this.anio = pAnio;
-        this.ascelerar = pAscelerar;
+        this.acelerar = pAcelerar;
         this.frenar = pFrenar;
 
     };
 
 
-    estaAscelerando(): void {
-        if (this.ascelerar == true) {
-            console.log("El auto está Ascelerando ")
+    estaAcelerando(): void {
+        if (this.acelerar == true) {
+            console.log("El auto está Acelerando ")
         }
         else { console.log("está frenado") }
     };

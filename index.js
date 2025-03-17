@@ -8,5 +8,5 @@ var cuartoAuto = new auto_1.Auto("Fiat", "Uno", 1999, true, false);
 console.log(primerAuto);
 console.log(segundoAuto);
 console.log(tercerAuto);
-var estado = segundoAuto.estaAscelerando();
+var estado = segundoAuto.estaAcelerando();
 console.log(estado);
