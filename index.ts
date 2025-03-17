@@ -6,8 +6,7 @@ let tercerAuto = new Auto("Chevrolet", "Corsa", 2008, true, false);
 let cuartoAuto = new Auto("Fiat", "Uno", 1999, true, false);
 
 
-console.log(primerAuto);
-console.log(segundoAuto);
-console.log(tercerAuto);
-let estado = segundoAuto.estaAcelerando();
+
+
+const estado= segundoAuto.estaAcelerando();
 console.log(estado);

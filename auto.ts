@@ -16,11 +16,13 @@ export class Auto {
 
     };
 
-
-    estaAcelerando(): void {
+    estaAcelerando(): string {
         if (this.acelerar == true) {
-            console.log("El auto está Acelerando ")
+           console.log("El auto está acelerando ")
+
         }
-        else { console.log("está frenado") }
-    };
-};
+        else { console.log("El auto está frenado") }
+
+        return "";
+
+};}

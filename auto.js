@@ -12,14 +12,14 @@ var Auto = /** @class */ (function () {
     ;
     Auto.prototype.estaAcelerando = function () {
         if (this.acelerar == true) {
-            console.log("El auto está Acelerando ");
+            console.log("El auto está acelerando ");
         }
         else {
-            console.log("está frenado");
+            console.log("El auto está frenado");
         }
+        return "";
     };
     ;
     return Auto;
 }());
 exports.Auto = Auto;
-;
