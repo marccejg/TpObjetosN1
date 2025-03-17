@@ -25,4 +25,16 @@ export class Auto {
 
         return "";
 
-};}
+};
+
+
+/*estaAcelerando(): void {
+        if (this.acelerar == true) {
+           console.log("El auto está acelerando ")
+
+        }
+        else { console.log("El auto está frenado") }
+
+    }*/
+   
+};
